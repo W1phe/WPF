@@ -1,0 +1,19 @@
+﻿<Page x:Class="wpfmgok.EmployeesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:wpfmgok"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="EmployeesPage">
+
+    <Grid Background="White" >
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Global Web Design" VerticalAlignment="Top" Height="307" Width="392" FontSize="72" TextAlignment="Center" FontFamily="Bahnschrift Condensed"/>
+        <Button Content="Employees" HorizontalAlignment="Left" Margin="0,314,0,0" VerticalAlignment="Top" Height="232" Width="392" FontSize="72" FontFamily="Blackadder ITC" BorderBrush="White" Foreground="#FFFF1919" Background="White"/>
+        <Button Content="Courses" HorizontalAlignment="Left" Margin="0,546,0,0" VerticalAlignment="Top" Height="232" Width="392" FontSize="72" FontFamily="Blackadder ITC" BorderBrush="White" Foreground="#FFFF1919" Background="White" Click="Courses"/>
+        <Button Content="Orders" HorizontalAlignment="Left" Margin="0,778,0,0" VerticalAlignment="Top" Height="232" Width="392" FontSize="72" FontFamily="Blackadder ITC" BorderBrush="White" Foreground="#FFFF1919" Background="White" Click="Orders"/>
+        <Button Content="Check" HorizontalAlignment="Left" Margin="397,430,0,0" VerticalAlignment="Top" Height="116" Width="392" FontSize="72" FontFamily="Blackadder ITC" BorderBrush="White" Foreground="#FFFF1919" Background="White"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="397,314,0,0" VerticalAlignment="Top" Height="116" Width="392" FontSize="72" FontFamily="Blackadder ITC" BorderBrush="White" Foreground="#FFFF1919" Background="White" Click="AddEmployee"/>
+    </Grid>
+</Page>
